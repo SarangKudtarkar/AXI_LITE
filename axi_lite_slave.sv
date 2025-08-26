@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module axi4_lite_slave #(
     parameter ADDRESS = 32,
     parameter DATA_WIDTH = 32

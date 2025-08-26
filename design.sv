@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 `include "axi4_lite_master.sv"
 `include "axi4_lite_slave.sv"
 
