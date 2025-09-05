@@ -50,7 +50,7 @@ This helps visualize the AXI4-Lite transactions (handshakes, read/write data flo
 
 ### Example waveform
 
-![AXI4-Lite VCD waveform](docs/waveform_gtkwave.png)
+![AXI4-Lite VCD waveform](waveform_gtkwave.png)
 
 ## 📝 Notes
 - The **master** drives AXI-Lite read/write transactions.  
