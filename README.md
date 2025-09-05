@@ -38,6 +38,20 @@ Make sure to include the following files:
 ---
 
 
+## Simulation & Waveform
+
+During simulation, the design produces a **VCD (Value Change Dump)** file (`axi4_lite.vcd.vcd`).
+You can open this file with any waveform viewer, for example:
+
+- [GTKWave](http://gtkwave.sourceforge.net/) (open-source, cross-platform)
+- Integrated viewers in simulators like ModelSim, Questa, or Vivado
+
+This helps visualize the AXI4-Lite transactions (handshakes, read/write data flow).
+
+### Example waveform
+
+![AXI4-Lite VCD waveform](docs/waveform_gtkwave.png)
+
 ## 📝 Notes
 - The **master** drives AXI-Lite read/write transactions.  
 - The **slave** responds with valid/ready handshakes.  
