@@ -27,7 +27,6 @@ Recommended settings:
 - **Tools & Simulators:** Aldec Riviera Pro 2023.04
 - **Compile Options:** `-timescale 1ns/1ns`
 - **Run Options:** `+access+r`
-- **Run Time:** `10 ms`
 
 Make sure to include the following files:
 - `axi_lite_master.sv`
